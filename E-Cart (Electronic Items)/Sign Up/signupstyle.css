@@ -1,0 +1,127 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-image: url(343619.jpg);
+}
+  
+.nav:hover {
+    background-color:red;
+}
+.nav {
+    background:gray;
+    color:white;
+    display:inline-block;
+    margin:1px;
+    padding:10px;
+    position:relative;
+    border:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+  
+button {
+    background-color:gray;
+    border:none;
+    color:white;
+}
+
+.footer {
+    display:inline;
+    font-size:20px;
+}
+
+.signup{
+    text-align: center;
+    padding: 120px;
+    margin: 8% auto 0;
+    width: 200px;
+    text-align: center;
+    box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+
+.signup h1 {
+    color:aqua;
+    margin-bottom: 30px;
+}
+
+.name, .info, .pass {
+    padding: 8px;
+}
+
+.hi {
+    margin-top:20px;
+    width: 80%;
+}
+
+.or {
+    background-color: #fff;
+    width: 30px;
+    margin: -19 auto 10px;
+}
+.acc {
+    color: blue;
+    text-decoration: underline;
+}
+
+.down {
+    justify-self: start;
+}
+
+.foothr {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 30px;
+    border: 1px dotted white;
+}
+
+.footerend {
+    display:inline;
+}
+
+.fblogo, .instalogo, .linklogo, .tweetlogo, .ytlogo {
+    width:25px;
+    height:25px;
+}
+
+.face {
+    /* display:inline; */
+    font-size:20px;
+    margin: 70px;  
+    color:blue;
+}
+
+.insta {
+    /* display:inline; */
+    font-size:20px;
+    margin: 100px;
+    color:rgb(155,30,200);
+}
+
+.linked {
+    /* display:inline; */
+    font-size:20px;
+    margin: 100px;
+    color:teal;
+}
+
+.tweet {
+    /* display:inline; */
+    font-size:20px;
+    margin: 100px;
+    color:royalblue;
+}
+
+.yout {
+    /*  display:inline; */
+    font-size:20px;
+    margin: 100px;
+    color:red;
+}

@@ -1,0 +1,112 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url(5653640.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    opacity: 0.5;
+}
+
+.nav:hover {
+    background-color:red;
+}
+.nav {
+    background:gray;
+    color:white;
+    display:inline-block;
+    margin:1px;
+    padding:10px;
+    position:relative;
+    border:none;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+  
+button {
+    background-color:gray;
+    border:none;
+    color:white;
+}
+
+  
+h1 {
+    text-align:center;
+    text-decoration:underline;
+}
+
+.para:hover {
+    transform: translateY(-4px); 
+    box-shadow: 2px 2px 5px 6px rgb(151,143,143);
+    transition: 0.4s all ease-in-out;
+    background-color: rgba(255, 255, 255, 0.525);
+}
+
+p {
+    text-align:center;
+    color:red;
+    font-size: 20px;
+    text-shadow: #111;
+}
+
+.footer {
+    margin-bottom: 100px;
+    padding:100px;
+    position: static;
+    text-align: center;
+
+}
+
+.link {
+    display:inline;
+    font-size:20px;
+    padding-bottom: -100px;
+    color: #111;
+    text-align: center;
+}
+
+.fblogo, .instalogo, .linklogo, .tweetlogo, .ytlogo {
+    width:25px;
+    height:25px;
+}
+
+.face {
+    /* display:inline; */
+    font-size:25px;
+    margin-left: 100px;  
+    color:blue;
+}
+
+.insta {
+    /* display:inline; */
+    font-size:25px;
+    margin-left: 460px;
+    color:rgb(155,30,200);
+}
+
+.linked {
+    /* display:inline; */
+    font-size:25px;
+    margin-left: 460px;
+    color:teal;
+}
+
+.tweet {
+    /* display:inline; */
+    font-size:25px;
+    margin-left: 400px;
+    color:royalblue;
+}
+
+.yout {
+    /*  display:inline; */
+    font-size:25px;
+    margin-left: 500px;
+    color:red;
+}

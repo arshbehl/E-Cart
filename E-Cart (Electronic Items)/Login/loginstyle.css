@@ -1,0 +1,144 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-image: url(343619.jpg);
+}
+  
+.nav:hover {
+    background-color:red;
+}
+
+.nav {
+    background:gray;
+    color:white;
+    display:inline-block;
+    margin:1px;
+    padding:10px;
+    position:relative;
+    border:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+.login{
+    text-align: center;
+    padding: 57px;
+    margin: 8% auto 0;
+    width: 250px;
+    text-align: center;
+    box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+
+.login h1 {
+    color:aqua;
+    margin-bottom: 40px;
+    font-size: 37px;
+}
+
+.box {
+    padding: 9px;
+    width:250px;
+}
+
+.log2 {
+    padding: 57px;
+    margin: -8% auto 0;
+    width: 250px;
+    text-align: center;
+    box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+
+.hi {
+    margin-top:20px;
+    width: 80%;
+}
+
+.or {
+    background-color: #fff;
+    width: 30px;
+    margin: -19 auto 10px;
+}
+
+.info {
+    text-align: left;
+    font-size: 16px;
+}
+
+.forpass {
+    color: blue;
+    text-decoration: underline;
+    float: left;
+    font-size: 13px;
+}
+
+.helpcen {
+    color: blue;
+    text-decoration: underline;
+    float: right;
+    font-size: 13px;
+    
+}
+
+.acc {
+    color: blue;
+    text-decoration: underline;
+}
+
+.foothr {
+    margin-left: 125px;
+    margin-right: 125px;
+    
+}
+
+.footerend {
+    display:inline;
+}
+
+.fblogo, .instalogo, .linklogo, .tweetlogo, .ytlogo {
+    width:25px;
+    height:25px;
+}
+
+.face {
+    /* display:inline; */
+    font-size:20px;
+    margin: 70px;  
+    color:blue;
+}
+
+.insta {
+    /* display:inline; */
+    font-size:20px;
+    margin: 100px;
+    color:rgb(155,30,200);
+}
+
+.linked {
+    /* display:inline; */
+    font-size:20px;
+    margin: 100px;
+    color:teal;
+}
+
+.tweet {
+    /* display:inline; */
+    font-size:20px;
+    margin: 100px;
+    color:royalblue;
+}
+
+.yout {
+    /*  display:inline; */
+    font-size:20px;
+    margin: 100px;
+    color:red;
+}
